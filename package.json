@@ -1,0 +1,28 @@
+{
+  "name": "qr-logo",
+  "description": "Insert a company logo into a QR code",
+  "author": "Ryan LeFevre <meltingice8917@gmail.com>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meltingice/qr-logo.git"
+  },
+  "homepage": "https://github.com/meltingice/qr-logo",
+  "license": "MIT",
+  "main": "./dist/qr-logo.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "babel-loader": "^8.0.0-beta",
+    "babel-polyfill": "^6.26.0",
+    "merge-images": "^1.1.0",
+    "qrcode": "^1.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
