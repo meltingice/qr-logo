@@ -24,7 +24,7 @@ document.querySelector("#qrcode").src = qrImage;
 ```html
 <script src="https://unpkg.com/qr-logo"></script>
 <script>
-  var qr = new QRLogo("/test/logo.png");
+  var qr = new QRLogo.default("/test/logo.png");
   qr.generate("xrb:xrb_1x7biz69cem95oo7gxkrw6kzhfywq4x5dupw4z1bdzkb74dk9kpxwzjbdhhs", {}, 1.4, 0.7).then(function (image) {
     document.querySelector("#result").src = image;
   })
