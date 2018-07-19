@@ -22,7 +22,7 @@ document.querySelector("#qrcode").src = qrImage;
 **As a standalone script**
 
 ```html
-<script src="https://unpkg.com/qr-logo.js"></script>
+<script src="https://unpkg.com/qr-logo"></script>
 <script>
   var qr = new QRLogo("/test/logo.png");
   qr.generate("xrb:xrb_1x7biz69cem95oo7gxkrw6kzhfywq4x5dupw4z1bdzkb74dk9kpxwzjbdhhs", {}, 1.4, 0.7).then(function (image) {
