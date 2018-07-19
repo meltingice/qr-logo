@@ -39,7 +39,7 @@ The constructor takes the URL of the logo you wish to embed in your QR codes.
 
 ### async generate(data, [options], [logoRatio], [logoOpacity])
 
-Generates the QR code with your logo overlaid on top.
+Generates the QR code with your logo overlaid on top. Output format is a base64 representation of the QR code image, which can be directly loaded with an `img` object.
 
 #### data
 
